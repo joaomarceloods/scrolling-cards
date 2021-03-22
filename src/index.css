@@ -24,4 +24,22 @@ code {
   justify-content: center;
   transition-property: transform;
   transition-duration: 250ms;
+  cursor: pointer;
+  box-shadow: #282c34 0px 0px 5px;
+}
+
+.container {
+  width: 200px;
+  margin: 50px auto;
+  background-color: black;
+  height: 460px;
+  overflow: hidden;
+}
+
+.box-container {
+  position: relative;
+  background-color: crimson;
+  margin: 0 auto;
+  top: -100px;
+  width: 100px;
 }
